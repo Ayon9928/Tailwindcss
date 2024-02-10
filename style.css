@@ -1,0 +1,18 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.section-one {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
