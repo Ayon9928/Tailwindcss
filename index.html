@@ -9,16 +9,16 @@
     <script src="https://kit.fontawesome.com/d34ffaeef6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="py-5 px-[150px]">
+    <header class="py-5 px-[20px] md:px-[80px]">
         <div class="flex justify-between items-center">
             <div class="navbar-logo">
                 <div class="flex gap-[10px] items-center">
                     <img src="./B9A2-Hero-Travel-main/Images/Group 40071 (2).png" alt="">
-                    <h1 class="text-[40px] font-bold">Hero<span style="color: orangered;">Travels</span></h1>
+                    <h1 class="text-[40px] font-bold over">Hero<span style="color: orangered;">Travels</span></h1>
                 </div>
             </div>
             <div class="navbar-menu">
-                <ul class="flex gap-20 text-2xl">
+                <ul class="hidden md:flex md:gap-20 md:text-2xl">
                     <li style="color: orangered;">Home</li>
                     <li>Packages</li>
                     <li>Testimonial</li>
@@ -30,21 +30,21 @@
     </header>
 
     <main>
-        <div class="py-5 px-[150px]">
+        <div class="py-5 px-[20px] md:px-[80px]">
             <div class="section-one h-[700px] rounded-2xl flex justify-center items-center">
-                <div class="text-zinc-100 h-full w-[70%] flex flex-col items-center justify-center  text-center gap-">
-                    <h1 class="text-7xl font-semibold">Explore Your Travel</h1>
-                    <p class="text-2xl my-10 font-light tracking-widest">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim
+                <div class="text-zinc-100 h-full w-full flex flex-col items-center justify-center  text-center gap-">
+                    <h1 class="text-4xl md:text-7xl font-semibold overflow-hidden">Explore Your Travel</h1>
+                    <p class="text-lg md:text-2xl my-10 font-light tracking-widest">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim
                         ac quis sapien urna eu phasellus.</p>
-                    <div class="bg-[#FFFFFF4D] w-[80%] flex justify-evenly rounded-xl py-5">
-                        <input class="w-[200px] h-[50px] border-none rounded-xl py-1 px-1 text-[#13131880] placeholder:text-[#13131880]" type="text" placeholder="where to go">
-                        <select class="w-[200px] h-[50px] border-none rounded-xl py-1 px-1 text-[#13131880]" name="When" id="">
+                    <div class="bg-[#FFFFFF4D] w-[97%] md:w-[80%] flex flex-col md:flex-row gap-3 px-2 md:justify-evenly rounded-xl py-5">
+                        <input class="w-[100%] h-14 md:w-[200px] md:h-[50px] border-none rounded-xl p-5 md:py-1 md:px-1 text-[#13131880] placeholder:text-[#13131880]" type="text" placeholder="where to go">
+                        <select class="w-[100%] h-14 md:w-[200px] md:h-[50px] border-none rounded-xl p-5 md:py-1 md:px-1 text-[#13131880]" name="When" id="xyz">
                             <option value="">When</option>
                         </select>
-                        <select class="w-[200px] h-[50px] border-none rounded-xl py-1 px-1 text-[#13131880]" name="" id="">
+                        <select class="w-[100%] h-14 md:w-[200px] md:h-[50px] border-none rounded-xl p-5 md:py-1 md:px-1 text-[#13131880]" name="" id="">
                             <option value="">select type</option>
                         </select>
-                        <button class="w-[200px] h-12 border-none rounded-lg py-1 px-1 bg-orange-600 text-zinc-100 flex items-center justify-center font-semibold gap-2"><img src="./B9A2-Hero-Travel-main/Images/searchlogo.png"
+                        <button class="w-[100%] h-14 md:w-[200px] md:h-12 border-none rounded-lg md:py-1 md:px-1 bg-orange-600 text-zinc-100 flex items-center justify-center font-semibold gap-2"><img src="./B9A2-Hero-Travel-main/Images/searchlogo.png"
                                 alt=""><p>Find Now</p></button>
                     </div>
                 </div>
@@ -52,12 +52,12 @@
         </div>
 
 
-        <div class="py-5 px-[150px]">
-            <div class="grid grid-cols-2 justify-between gap-12">
+    <div class="py-5 px-[20px] md:px-[80px]">
+            <div class="grid grid-cols-1 md:grid-cols-2 justify-between gap-12">
                 <div class="">
                     <h1 class="text-4xl font-semibold py-2">Our Popular Tours</h1>
                     <p class="mt-4 text-xl leading-loose">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-                    <ul class="list-disc"> <!-- Added 'list-disc' class for bullet points -->
+                    <ul class=" list-disc"> 
                         <li class="text-xl leading-loose">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
                         <li class="text-xl leading-loose">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
                         <li class="text-xl leading-loose">Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
@@ -70,68 +70,78 @@
                     <img src="./B9A2-Hero-Travel-main/Images/Rectangle 4.png" alt="">
                 </div>
             </div>
-        </div>
+        </div> 
 
 
-        <div class="py-5 px-[20px] md:px-[150px]">
+        <div class="py-5 px-20px] md:px-[80px]">
             <div class="section-three">
                 <div class="items-center">
-                    <h1 class="text-5xl py-2 text-center">Choose your destination</h1>
-                    <p class="text-2xl text-center">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
+                    <h1 class=" text-4xl md:text-5xl py-2 text-center">Choose your destination</h1>
+                    <p class="text-xl px-6 md:text-2xl text-center">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
                 </div>
                 <div class="mt-24">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <img class="w-full" src="./B9A2-Hero-Travel-main/Images/grid01.png" alt="">
-                        <img class="w-full" src="./B9A2-Hero-Travel-main/Images/grid04.png" alt="">
+                    <div class="px-[20px] grid grid-cols-1  md:grid-cols-2 gap-6 justify-between">
+                        <img class="w-full object-cover" src="./B9A2-Hero-Travel-main/Images/grid01.png" alt="">
+                        <img class="w-full object-cover" src="./B9A2-Hero-Travel-main/Images/grid04.png" alt="">
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 mt-6 ">
-                        <img  class="w-full h-full object-cover rounded-2xl col-span-4"  src="./B9A2-Hero-Travel-main/Images/grid02.png" alt="">
-                        <img class="w-full h-full object-cover rounded-2xl col-span-5"  src="./B9A2-Hero-Travel-main/Images/grid03.png" alt="">
-                        <img class="w-full h-full object-cover rounded-2xl col-span-3"  src="./B9A2-Hero-Travel-main/Images/grid05.png" alt="">
+                    <div class="px-[20px] md:grid  w-full md:grid-cols-12 gap-6 mt-6">
+                        <img  class="w-[1000px]   object-cover rounded-2xl col-span-4"  src="./B9A2-Hero-Travel-main/Images/grid02.png" alt="">
+                        <img class="w-full h-full object-cover rounded-2xl col-span-5 mt-6 md:mt-0"  src="./B9A2-Hero-Travel-main/Images/grid03.png" alt="">
+                        <img class="w-full h-full object-cover rounded-2xl col-span-3 mt-6 md:mt-0"  src="./B9A2-Hero-Travel-main/Images/grid05.png" alt="">
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 mt-6 h-[400px]">
+                    <div class="px-[20px] md:grid grid-cols-1 md:grid-cols-12 gap-6 mt-6">
                         <img   class="w-full h-full object-cover rounded-2xl col-span-5"  src="./B9A2-Hero-Travel-main/Images/grid06.png" alt="">
-                        <img  class="w-full h-full object-cover rounded-2xl col-span-7"  src="./B9A2-Hero-Travel-main/Images/grid07.png" alt="">
+                        <img  class="w-full h-full object-cover rounded-2xl col-span-7 mt-6 md:mt-0"  src="./B9A2-Hero-Travel-main/Images/grid07.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="py-5 px-[150px]">
+        <div class="py-5 px-[20px] md:px-[80px]">
             <div class="section-four">
-                <div class="section-four-text">
-                    <h1>Why Choose Us</h1>
-                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl my-7 overflow-hidden">Why Choose Us</h1>
+                    <p class="text-xl  md:text-xl">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
                 </div>
-                <div class="section-four-container">
-                    <div class="two-container">
-                        <div class="section-four-container-one">
+                <div class="mt-12 ">
+                    <div class="flex flex-col md:flex-row gap-3 justify-between">
+                        <!-- <div class="section-four-container-one"> -->
+                        <div class="bg-gradient-to-br from-orange-200 via-orange-100 to-orange-50 border-2 border-orange-100 
+                        w-full h-auto
+                        md:w-[600px] md:h-[360px] rounded-[20px]
+                        leading-loose p-12 md:p-20">    
                             <img src="./B9A2-Hero-Travel-main/Images/Group.png" alt="">
                             <h1>Handpicked Hotels</h1>
                             <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
                         </div>
-                        <div class="section-four-container-two">
+                        <div class="bg-gradient-to-br from-sky-200 via-sky-100 to-sky-50 border-2 border-orange-100 w-full h-auto
+                        md:w-[600px] md:h-[360px] rounded-[20px]
+                        leading-loose p-12 md:p-20 overflow-hidden">
                             <img src="./B9A2-Hero-Travel-main/Images/Group 27.png" alt="">
                             <h1>World Class Service</h1>
                             <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
                         </div>
                     </div>
-                    <div class="section-four-container-three">
+                    <div class="flex justify-center mt-3">
+                    <div class="bg-gradient-to-br from-orange-200 via-orange-100 to-orange-50 border-2 border-orange-100 w-full h-auto
+                    md:w-[600px] md:h-[360px] rounded-[20px]
+                    leading-loose p-12 md:p-20 mx-0 mt-auto">
                         <img src="./B9A2-Hero-Travel-main/Images/Group 26.png" alt="">
                         <h1>Best Price Guarantee</h1>
                         <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
-    <div class="py-5 px-[150px]">
+    <div class="py-5 px-[20px] md:px-[80px]">
     <div class="section-five">
-        <div class="section-five-text">
-            <h1>Deals & Discounts</h1>
-            <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+        <div class="text-center">
+            <h1 class="text-6xl overflow-hidden">Deals & Discounts</h1>
+            <p class="text-xl font-light">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
         </div>
-        <div class="section-five-one">
-            <div class="section-five-one-container">
+        <div class="section-five-one flex justify-start items-end md:items-center rounded-[20px] mt-[30px] p-6 md:p-12 w-full h-[700px]">
+            <div class="w-[579px] h-[80%] md:h-[389px] rounded-2xl border-2 border-white bg-white bg-opacity-50 leading-loose pt-8 pl-8 pb-8 pr-12">
                 <div class="section-five-one-container-logos">
                     <img src="./B9A2-Hero-Travel-main/Images/conpho3.png" alt="">
                     <img src="./B9A2-Hero-Travel-main/Images/conpho2.png" alt="">
@@ -141,11 +151,11 @@
                 <p>Amet consectetur. Vulputate commodo felis 
                     molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
                     <h2 style="color: orangered;">Price: $1300-$1500</h2>
-                    <button class="section-five-button">Book Now</button>
+                    <button class="w-[200px] h-[50px] border-none rounded-xl px-[2] py-[3px] bg-orange-600 text-zinc-100 text-xl mt-[5px]">Book Now</button>
             </div>
         </div>
-        <div class="section-five-two">
-            <div class="section-five-one-container">
+        <div class="section-five-two flex justify-start items-end md:items-center rounded-[20px] mt-[30px] p-6 md:p-12 w-full h-[700px]">
+            <div class="w-[579px] h-[80%] md:h-[389px] rounded-2xl border-2 border-white bg-white bg-opacity-50 leading-loose pt-8 pl-8 pb-8 pr-12">
                 <div class="section-five-one-container-logos">
                     <img src="./B9A2-Hero-Travel-main/Images/conpho3.png" alt="">
                     <img src="./B9A2-Hero-Travel-main/Images/conpho2.png" alt="">
@@ -155,12 +165,12 @@
                 <p>Amet consectetur. Vulputate commodo felis 
                     molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
                     <h2 style="color: orangered;">Price: $1300-$1500</h2>
-                    <button class="section-five-button">Book Now</button>
+                    <button class="w-[200px] h-[50px] border-none rounded-xl px-[2] py-[3px] bg-orange-600 text-zinc-100 text-xl mt-[5px]">Book Now</button>
             </div>
         </div>
         </div>
-        <div class="section-five-three">
-            <div class="section-five-one-container">
+        <div class="section-five-three flex justify-start items-end md:items-center rounded-[20px] mt-[30px] p-6 md:p-12 w-full h-[700px]">
+            <div class="w-[579px] h-[80%] md:h-[389px] rounded-2xl border-2 border-white bg-white bg-opacity-50 leading-loose pt-8 pl-8 pb-8 pr-12">
                 <div class="section-five-one-container-logos">
                     <img src="./B9A2-Hero-Travel-main/Images/conpho3.png" alt="">
                     <img src="./B9A2-Hero-Travel-main/Images/conpho2.png" alt="">
@@ -170,18 +180,18 @@
                 <p>Amet consectetur. Vulputate commodo felis 
                     molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
                     <h2 style="color: orangered;">Price: $1300-$1500</h2>
-                    <button class="section-five-button">Book Now</button>
+                    <button class="w-[200px] h-[50px] border-none rounded-xl px-[2] py-[3px] bg-orange-600 text-zinc-100 text-xl mt-[5px]">Book Now</button>
             </div>
         </div>
         </div>
     </div>
 </div>
 
-<div class="py-5 px-[150px]">
-<div class="section-six">
-    <div class="section-six-text">
-        <h1>A Simple Perfect Place To Get Lost</h1>
-        <p style="color: gray;">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. </p>
+<div class="py-5 px-[20px] md:px-[80px]">
+<div class="flex flex-col md:flex-row justify-evenly">
+    <div class="section-six-text leading-loose md:w-[50%]">
+        <h1 class="text-4xl">A Simple Perfect Place To Get Lost</h1>
+        <p class="text-xl leading-loose" style="color: gray;">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. </p>
         <ul>
             <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
             <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
@@ -194,20 +204,20 @@
 </div>
 </div>
 
-<div class="py-5 px-[150px]">
-    <div class="section-seven">
+<div class="py-5 px-[20px] md:px-[80px]">
+    <div class="flex flex-col md:flex-row justify-between">
         <div class="section-seven-left">
-            <div class="section-seven-container">
+            <div class="w-full md:w-[474px] h-[353px] md:h-[422px] border-2  border-orange-600 rounded-[20px] p-8 md:p-[50px] leading-tight flex flex-col gap-7 md:gap-8">
                 <h1>Newsletter</h1>
                 <p>Get your daily dose of travel news & tips. Sign up today!</p>
                 <hr class="www">
                 <input type="text" placeholder="Enter your name" name="" id="section-seven-input">
                 <input type="text" placeholder="Enter your email" name="" id="section-seven-input">
-                <button class="btn">Subscribe</button>
+                <button class="md:w-[393] md:h-[52px] rounded-lg bg-orange-600 border-none text-zinc-100 text-[16px]">Subscribe</button>
             </div> 
         </div>
-        <div class="section-seven-right">
-            <div class="section-seven-one-right-container">
+        <div class="section-seven-right w-full md:w-[652px] rounded-2xl flex px-[60px] py-[20px] items-end  justify-end overflow-hidden">
+            <div class="w-64 h-16 md:w-[314px] md:h-[110px] rounded-2xl bg-orange-600 flex flex-col justify-center items-center text-white rotate-[-20deg]">
                 <p>Travel.com</p>
                 <h1>Save up to 70%</h1>
             </div>
@@ -215,17 +225,17 @@
     </div>
 </div>
 </main>
-<footer>
-    <div class="footer-up">
-    <div class="navbar-photo">
+<footer class=" bg-[#1313180D] w-full h-auto flex flex-col justify-center items-center gap-5 md:gap-[80px]">
+    <div class="flex flex-col gap-7 md:gap-[50px] items-center justify-center">
+    <div class="flex items-center mt-6 md:mt-12">
         <img src="./B9A2-Hero-Travel-main/Images/Group 40071 (2).png" alt="">
         <h1>Hero <span style="color: orangered;">Travels</span></h1>
     </div>
-    <div class=""><p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p></div>
+    <div class=""><p class="text-sm md:text-base px-5 md:px-0">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p></div>
     <div class=""><img src="./B9A2-Hero-Travel-main/Images/Social.png" alt=""></div>
 </div>
 
-<hr>
+<hr class="w-[872px] flex flex-col items-center justify-center bg-[#1313181A] border-2px border-[#1313181A]">
     <div class="footer-down">2017, All Rights Reserved.</div>
 </footer>
 

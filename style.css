@@ -16,3 +16,34 @@ body{
     background-size: cover;
    
 }
+
+.section-five-three{
+    background: url(./B9A2-Hero-Travel-main/Images/Group\ 39.png);
+    height: 500px;
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.section-five-one{
+    background: url(./B9A2-Hero-Travel-main/Images/Group\ 39.png);
+    height: 500px;
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
+.section-five-two{
+    background: url(./B9A2-Hero-Travel-main/Images/Group\ 40.png);
+    height: 500px;
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.section-seven-right{
+    background: url(./B9A2-Hero-Travel-main/Images/Rectangle\ 8\ \(1\).png);
+    width: 672px;
+height: 422px;
+}
